@@ -1,0 +1,6 @@
+mvn versions:set -DnewVersion=1.0.0-SNAPSHOT
+mvn versions:commit
+mvn versions:revert
+
+mvn versions:use-next-release
+mvn versions:use-next-snapshot
