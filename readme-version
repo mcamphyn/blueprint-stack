@@ -4,3 +4,5 @@ mvn versions:revert
 
 mvn versions:use-next-release
 mvn versions:use-next-snapshot
+mvn versions:dependency-updates-report
+
