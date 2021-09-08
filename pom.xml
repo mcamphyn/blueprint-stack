@@ -53,11 +53,13 @@
                 <artifactId>spring-context</artifactId>
                 <version>${spring-version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
                 <version>${spring-version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
@@ -65,12 +67,13 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
-                <artifactId>spring-mvc</artifactId>
+                <artifactId>spring-orm</artifactId>
                 <version>${spring-version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.springframework</groupId>
-                <artifactId>spring-orm</artifactId>
+                <artifactId>spring-mvc</artifactId>
                 <version>${spring-version}</version>
             </dependency>
 
@@ -81,10 +84,11 @@
                 <artifactId>hibernate-core</artifactId>
                 <version>${hibernate-version}</version>
             </dependency>
+
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-c3p0</artifactId>
-                <version>${hibernate.version}</version>
+                <version>${hibernate-version}</version>
             </dependency>
 
             <!-- C3PO dependencies management -->
@@ -112,7 +116,7 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${servlets.version}</version>
-                <!-- Fournie par Tomcat  -->
+                <!-- Provided by Tomcat  -->
                 <scope>provided</scope>
             </dependency>
 
@@ -121,7 +125,7 @@
                 <groupId>javax.servlet.jsp</groupId>
                 <artifactId>javax.servlet.jsp-api</artifactId>
                 <version>${jsp.version}</version>
-                <!-- Fournie par Tomcat  -->
+                <!-- provided by Tomcat  -->
                 <scope>provided</scope>
             </dependency>
 
@@ -132,9 +136,9 @@
                 <scope>test</scope>
             </dependency>
 
-
-
         </dependencies>
     </dependencyManagement>
+
+
 
 </project>
